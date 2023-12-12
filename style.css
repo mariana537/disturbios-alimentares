@@ -1,0 +1,153 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #66CDAA;
+}
+
+header{
+  background-color: #ffffff;
+}
+
+/*.navbar{
+  background-color: #ffffff;
+}*/
+
+img#logo{
+  max-width: 50px;
+}
+
+
+.inicio-fundo {
+  background-size: cover;
+  background-image: url("./imagens/etec.jpg");
+  height: 700px;
+}
+
+h1 {
+  padding-top: 1vh;
+  font-size: 2em;
+}
+
+.cabecalho{
+  display:flex;
+  flex-direction:row;
+  justify-content: left;
+  align-items: center;
+}
+
+ul > header {
+  margin: 0px;
+}
+
+nav > ul {
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+  padding: 5px;
+  margin: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  text-aligh: center;
+}
+
+main {
+  background-color: white;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#inicio {
+  background-image: url(imagens/placa-disturbios-alimentares.png);
+  background-repeat: no-repeat;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px;
+  color: #70bd7f;
+}
+
+h3 {
+  margin: 10px 20px;
+}
+
+p {
+  padding: 10px;
+  margin: 5px;
+  text-align: justify;
+  
+  }
+
+blockquote {
+  margin: 0px;
+  padding: 10px;
+  color: black;
+}
+
+.lista li {
+  margin: 10px;
+}
+
+#infografico{
+  width: 90%;
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagem {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.video > iframe{
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+footer {
+  background-color: white;
+  color: black;
+}
+
+.fontes {
+  text-decoration: underline;
+  color: rgb(21, 177, 122);
+}
+
+.linkh2 {
+  color: #70bd7f;
+}
+
+footer > p {
+  color: black;
+}
